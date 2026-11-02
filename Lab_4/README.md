@@ -77,6 +77,13 @@ Two result figures are displayed:
 - Original one-pixel image and its responses to kernels A, B, C, and D.
 - Original three-pixel-wide image and its responses to kernels A, B, C, and D.
 
+## Saved Output Figures
+The program's two result visualizations are also saved in this folder:
+- [Output_1pixel.svg](./Output_1pixel.svg) – original one-pixel diagonal lines and responses from kernels A–D.
+- [Output_3pixel.svg](./Output_3pixel.svg) – original three-pixel-wide vertical lines and responses from kernels A–D.
+
+Open either SVG file in a browser to view the output at full resolution.
+
 ## Notes
 - The synthetic test images are generated in the notebook; no external image files are required.
 - Derivative filter responses can contain negative values. Matplotlib displays the floating-point arrays directly, so contrast and appearance may differ from a normalized 8-bit display.
